@@ -1,0 +1,5 @@
+INSERT INTO public.input (id, code, date_time, facture_number, currency_id, supplier_id, warehouse_id) VALUES (1, '5db1f443-6153-4d1d-8198-c7b8de7cde60', '2021-09-29 09:49:39.340000', '34235235', 1, 1, 4);
+INSERT INTO public.input (id, code, date_time, facture_number, currency_id, supplier_id, warehouse_id) VALUES (2, 'd62f1015-ff48-4f84-a749-81d8ea9a2967', '2021-09-29 09:50:01.200000', '34242342', 2, 3, 2);
+INSERT INTO public.input (id, code, date_time, facture_number, currency_id, supplier_id, warehouse_id) VALUES (3, '5bcede78-8e79-4a34-a9f2-66655fc6899d', '2021-09-29 09:50:23.281000', '4222342', 3, 4, 6);
+INSERT INTO public.input (id, code, date_time, facture_number, currency_id, supplier_id, warehouse_id) VALUES (4, '569090da-f8ac-46f3-86d4-5fb0dea12a5b', '2021-09-29 09:50:44.782000', '4245423', 1, 1, 3);
+INSERT INTO public.input (id, code, date_time, facture_number, currency_id, supplier_id, warehouse_id) VALUES (5, '0fe567b5-382d-4625-a497-d815c336c7e0', '2021-09-29 09:51:29.558000', '4245489', 4, 2, 1);

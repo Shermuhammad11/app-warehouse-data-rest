@@ -1,0 +1,7 @@
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (1, true, 'Samsung Galaxy', 'a1a6d185-f23c-4cf2-a647-f919f5550d9d', 1, 10, 1);
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (2, true, 'Airpods', 'd98fa608-f26c-4fe2-a9dc-9919921f18de', 2, 12, 1);
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (3, true, 'Mac Book', '8461618c-e083-4e07-ba40-a106d90e0c7a', 3, 13, 1);
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (4, true, 'Artel Gaz plita', '764f2bc9-7cf7-4da5-9037-3f3c763728d7', 4, 6, 1);
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (5, true, 'Avalon', 'a33c4e7a-ebc2-49ee-ab16-cc94558b0d63', 5, 4, 1);
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (6, true, 'Smart Watch', '9ab6f158-029c-4b5d-82b2-2ce892b3deba', 6, 11, 1);
+INSERT INTO public.product (id, active, name, code, attachment_id, category_id, measurement_id) VALUES (7, true, 'Jabulala', '889a0a9e-f54f-4f27-bfa9-a6648b98898f', 3, 8, 1);

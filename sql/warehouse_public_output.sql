@@ -1,0 +1,6 @@
+INSERT INTO public.output (id, code, date_time, facture_number, client_id, currency_id, warehouse_id) VALUES (1, '650b6117-04a3-4c57-89a8-df04801859f5', '2021-09-29 10:02:10.419000', '4235525', 2, 1, 4);
+INSERT INTO public.output (id, code, date_time, facture_number, client_id, currency_id, warehouse_id) VALUES (2, 'f0448c72-f233-48bf-b983-8e9cdf8d79d9', '2021-09-29 10:02:39.580000', '4345525', 1, 2, 2);
+INSERT INTO public.output (id, code, date_time, facture_number, client_id, currency_id, warehouse_id) VALUES (3, 'e63b64bb-99af-4df1-b77b-6d9de2153b44', '2021-09-29 10:03:05.852000', '4345554', 3, 1, 3);
+INSERT INTO public.output (id, code, date_time, facture_number, client_id, currency_id, warehouse_id) VALUES (4, 'f994269a-3c06-4f9e-bf67-c0020595e75a', '2021-09-29 10:03:30.500000', '4345342', 1, 3, 5);
+INSERT INTO public.output (id, code, date_time, facture_number, client_id, currency_id, warehouse_id) VALUES (5, '149ee19f-1c14-4806-ba63-782582469cdc', '2021-09-29 10:03:48.936000', '4344342', 3, 2, 6);
+INSERT INTO public.output (id, code, date_time, facture_number, client_id, currency_id, warehouse_id) VALUES (6, '80e4d1df-d46d-48fe-a9af-f353b32c5411', '2021-09-29 10:04:10.927000', '8944342', 1, 3, 4);

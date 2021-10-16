@@ -1,0 +1,6 @@
+INSERT INTO public.users (id, active, code, first_name, last_name, password, phone_number) VALUES (1, true, '588a35d6-3c6a-4def-a7ba-ef4200e255a6', 'Adham', 'Sobirov', '12345', '+998941234567');
+INSERT INTO public.users (id, active, code, first_name, last_name, password, phone_number) VALUES (2, true, '2219e612-e255-4553-adaa-581b0e2bae62', 'Rishod', 'Sobirov', '12346', '+998941234568');
+INSERT INTO public.users (id, active, code, first_name, last_name, password, phone_number) VALUES (3, true, '61322564-b711-4564-9560-b16fd7bef33a', 'Xolmat', 'Toshmatov', '12347', '+998941234569');
+INSERT INTO public.users (id, active, code, first_name, last_name, password, phone_number) VALUES (4, true, '98bcbfba-79b7-4935-941d-9d73db7ae4b2', 'Shuhrat', 'Eshonqulov', '12348', '+998941234570');
+INSERT INTO public.users (id, active, code, first_name, last_name, password, phone_number) VALUES (5, true, '12d579b4-393b-43b3-8858-818870f8858f', 'Temur', 'Qodirov', '12349', '+998941234571');
+INSERT INTO public.users (id, active, code, first_name, last_name, password, phone_number) VALUES (6, true, 'db5f6f26-46a0-4686-b330-04173afda4f4', 'Umar', 'Davlatov', '12355', '+998941234572');

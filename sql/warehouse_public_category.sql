@@ -1,0 +1,13 @@
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (1, true, 'Maishiy xizmat', null);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (2, true, 'Sport anjomlari', null);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (3, true, 'Aksessuarlar', null);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (4, true, 'Kir moshina', 1);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (5, true, 'Chang yutgich', 1);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (6, true, 'Gaz plita', 1);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (7, true, 'Yugurish yo''lakchasi', 2);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (8, true, 'Kaptok', 2);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (9, true, 'Turnik', 2);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (10, true, 'Telefon', 3);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (11, true, 'Smart Soat', 3);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (12, true, 'Quloqchinlar', 3);
+INSERT INTO public.category (id, active, name, parent_category_id) VALUES (13, true, 'Noutbuklar', 3);
