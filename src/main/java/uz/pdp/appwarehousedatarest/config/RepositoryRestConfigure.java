@@ -51,6 +51,8 @@ public class RepositoryRestConfigure implements RepositoryRestConfigurer {
 
         ExposureConfiguration config = restConfig.getExposureConfiguration();
 
+        config.disablePutForCreation();
+
         config.forDomainType(User.class).
                 withAssociationExposure((metadata, httpMethods) ->
                     httpMethods.disable(HttpMethod.PUT, HttpMethod.PATCH));
@@ -75,20 +77,8 @@ public class RepositoryRestConfigure implements RepositoryRestConfigurer {
                 withAssociationExposure((metadata, httpMethods) ->
                         httpMethods.disable(HttpMethod.PATCH, HttpMethod.DELETE));
 
-        config.forDomainType(Warehouse.class).disablePutForCreation();
-        config.forDomainType(User.class).disablePutForCreation();
-        config.forDomainType(Supplier.class).disablePutForCreation();
-        config.forDomainType(Category.class).disablePutForCreation();
-        config.forDomainType(Measurement.class).disablePutForCreation();
-        config.forDomainType(Product.class).disablePutForCreation();
-        config.forDomainType(Currency.class).disablePutForCreation();
-        config.forDomainType(Client.class).disablePutForCreation();
-        config.forDomainType(Output.class).disablePutForCreation();
-        config.forDomainType(OutputProduct.class).disablePutForCreation();
-        config.forDomainType(Input.class).disablePutForCreation();
-        config.forDomainType(InputProduct.class).disablePutForCreation();
-
     }
+
 
 }
 
